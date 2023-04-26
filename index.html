@@ -10,29 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <header>
-      <h2>My Logo</h2>
-      <nav>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          height="24"
-          width="24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="logo"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-      </nav>
+    <header class="head flex-col">
+      <div class="flex-row mobile-icon">
+        <img class="time" src="src/assets/imgs/Time.png" alt="" />
+        <div class="phone-network flex-row">
+          <img src="src/assets/imgs/Cellular Connection.png" alt="Cellular" />
+          <img src="src/assets/imgs/Wifi.png" alt="wifi" />
+          <img src="src/assets/imgs/Battery.png" alt="" />
+        </div>
+      </div>
+      <section class="navigation flex-row">
+        <h2 class="logo">My Logo</h2>
+        <nav>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#fff"
+            viewBox="0 0 24 24"
+            height="24"
+            width="24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="menu"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </nav>
+      </section>
     </header>
   </body>
 </html>
