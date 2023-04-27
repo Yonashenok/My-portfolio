@@ -15,7 +15,7 @@
   }
 
   .navBar {
-    padding: 0 14rem;
+    padding: 0 8rem;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -35,26 +35,30 @@
     max-width: 70rem;
     width: 100%;
     flex-direction: row-reverse;
-    gap: 1rem;
+    justify-content: start;
+    gap: 4rem;
     padding-top: 2rem;
     margin-left: 3rem;
   }
 
   .primary-head {
-    width: 50rem;
-    height: 15rem;
-    gap: calc((24 - 16) * (100vw - 100px) / (800 - 300));
-    font-size: calc(16px + (24 - 16) * (100vw - 50px) / (800 - 600));
+    width: 25rem;
+    height: 11rem;
+    font-family: "Crete Round", serif;
+    font-size: 72px;
     line-height: 82px;
-    padding: 2rem 0 1rem 0;
+  }
+
+  .primary-head h1 {
+    display: flex;
+    flex-direction: column;
   }
 
   .secondary-head {
     font-family: "Inter", sans-serif;
-    font-size: calc(16px + (24 - 16) * (100vw - 50px) / (800 - 300));
+    font-size: 32px;
     font-weight: 500;
     line-height: 44px;
-    margin-top: calc((24 - 16) * (100vw - 100px) / (800 - 200));
   }
 
   .about-text {
@@ -76,24 +80,15 @@
   }
 
   .illustration-container {
-    justify-content: end;
-    max-width: 60rem;
-    min-width: 30rem;
-    width: 100%;
-    margin-left: auto;
-  }
-
-  .illustration-2 {
-    padding: 3rem 0 0 0;
-    width: calc(200px + (34 - 16) * (100vw - 100px) / (70));
-    height: auto;
-    position: fixed;
-    top: 3%;
+    position: absolute;
+    bottom: 0;
     right: 0;
-  }
-
-  .illustration-1 {
-    display: none;
+    width: 40rem;
+    height: 100vh;
+    background-image: url("/src/assets/imgs/Illustration-header@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right 2px;
   }
 
   .menu {

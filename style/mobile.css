@@ -7,7 +7,7 @@
     padding: 2rem 3rem;
   }
 
-  .navBar a {
+  .head-nav a {
     display: none;
   }
 
@@ -36,45 +36,51 @@
     height: 12px;
   }
 
-  .illustration-2 {
-    display: none;
-  }
-
   .illustration-container {
     position: absolute;
-    bottom: -20%;
+    bottom: 0;
     right: 0;
-  }
-
-  .illustration-1 {
-    max-width: 15rem;
-    width: 100%;
-    height: auto;
+    width: 15rem;
+    height: 20rem;
+    background-image: url("/src/assets/imgs/illustration-header-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right 2px;
   }
 
   .headline {
-    padding-top: 14rem;
+    padding-top: 12rem;
     max-width: 40rem;
     height: 100%;
     width: 100%;
     flex-direction: column;
-
-    /* justify-content: center; */
   }
 
   .primary-head {
-    width: 30rem;
-    font-size: 46px;
+    height: 124px;
+    width: 327px;
+    font-size: 56px;
     font-family: "Crete Round", serif;
     font-weight: 400;
     line-height: 64px;
   }
 
+  .primary-head h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    padding: 1rem 0 0 0;
+  }
+
   .secondary-head {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
+    width: 327px;
+    height: 27px;
     margin: 1.2rem 0 0 0;
   }
 

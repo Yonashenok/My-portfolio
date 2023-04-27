@@ -24,12 +24,25 @@
   z-index: 100;
 }
 
+.head-nav li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .logo {
-  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.logo a {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  text-align: center;
+  text-decoration: none;
   color: #fff;
 }
 
@@ -44,7 +57,7 @@
 }
 
 .details {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .primary-head h1 {
@@ -71,7 +84,8 @@
 }
 
 .share {
-  padding: 0 2rem;
+  padding: 0 1rem;
+  list-style: none;
 }
 
 .share img {
