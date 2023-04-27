@@ -36,39 +36,41 @@
   </head>
   <body>
     <header class="head flex-row">
-      <div class="flex-row navigation">
-        <img class="time" src="src/assets/imgs/Time.png" alt="" />
-        <div class="phone-network flex-row">
-          <img src="src/assets/imgs/Cellular Connection.png" alt="Cellular" />
-          <img src="src/assets/imgs/Wifi.png" alt="wifi" />
-          <img src="src/assets/imgs/Battery.png" alt="" />
-        </div>
-      </div>
       <section class="navBar flex-row">
-        <h2 class="logo">My Logo</h2>
+        <ul class="logo">
+          <li><a href="#">MyLogo</a></li>
+        </ul>
         <nav>
-          <div class="head-nav flex-row">
-            <a href="">Portfolio</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <img class="mail" src="src/assets/icons/Icon - Mail.png" alt="" />
-          </div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            stroke="#fff"
-            viewBox="0 0 24 24"
-            height="24"
-            width="24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="menu"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
+          <ul class="head-nav flex-row">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <img
+                class="mail"
+                src="src/assets/icons/Icon - Mail.png"
+                alt="Mail-Box"
+              />
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#fff"
+                viewBox="0 0 24 24"
+                height="24"
+                width="24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="menu"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </li>
+          </ul>
         </nav>
       </section>
     </header>
@@ -76,10 +78,10 @@
       <section class="landing flex-row">
         <div class="headline flex-row">
           <div class="details">
-            <div class="primary-head flex-col">
-              <h1>Hey There.</h1>
-              <h1>I'm Alex.</h1>
-            </div>
+            <h1 class="primary-head">
+              <span class="intro">Hey There.</span>
+              <span class="intro">I'm Yonas.</span>
+            </h1>
             <div>
               <h2 class="secondary-head">I'm a software developer</h2>
               <p class="about-text">
@@ -89,26 +91,17 @@
               </p>
             </div>
           </div>
-          <div class="share flex-row">
-            <img src="src/assets/icons/Vector.png" alt="" />
-            <img src="src/assets/icons/Group.png" alt="" />
-            <img src="src/assets/icons/anglelist.png" alt="" />
-            <img src="src/assets/icons/tweeter.png" alt="" />
-            <img src="src/assets/icons/meduin.png" alt="" />
-          </div>
+          <ul class="share flex-row">
+            <li><img src="src/assets/icons/Vector.png" alt="Github" /></li>
+            <li><img src="src/assets/icons/Group.png" alt="Linkedin" /></li>
+            <li>
+              <img src="src/assets/icons/anglelist.png" alt="Angellist" />
+            </li>
+            <li><img src="src/assets/icons/tweeter.png" alt="Twitter" /></li>
+            <li><img src="src/assets/icons/meduin.png" alt="medium" /></li>
+          </ul>
         </div>
-        <div class="illustration-container flex-row">
-          <img
-            class="illustration-1"
-            src="src/assets/imgs/illustration-header-mobile.png"
-            alt=""
-          />
-          <img
-            class="illustration-2"
-            src="src/assets/imgs/Illustration-header@2x.png"
-            alt=""
-          />
-        </div>
+        <div class="illustration-container"></div>
       </section>
     </main>
   </body>
