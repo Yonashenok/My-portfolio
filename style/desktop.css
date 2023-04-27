@@ -1,0 +1,97 @@
+@media only screen and (min-width: 768px) {
+  .head {
+    justify-content: space-between;
+  }
+
+  .head-nav {
+    width: 20rem;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .navigation img {
+    display: none;
+  }
+
+  .navBar {
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navBar a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .mail {
+    width: 24px;
+    height: 24px;
+  }
+
+  .headline {
+    max-width: 70rem;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 4rem;
+    padding-top: 2rem;
+    margin-left: 3rem;
+  }
+
+  .primary-head {
+    width: 25rem;
+    height: 11rem;
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .primary-head h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondary-head {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  .about-text {
+    font-family: "Inter", sans-serif;
+    font-size: calc(8px + (24 - 16) * (100vw - 50px) / (900));
+    line-height: 32px;
+    max-width: 35rem;
+    width: 100%;
+  }
+
+  .share {
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 3rem;
+    margin-top: 7rem;
+  }
+
+  .illustration-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40rem;
+    height: 100vh;
+    background-image: url("/src/assets/imgs/Illustration-header@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right 2px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
