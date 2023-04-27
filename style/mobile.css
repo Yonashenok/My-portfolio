@@ -1,0 +1,95 @@
+@media (min-width: 375px) and (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
+  }
+
+  .navBar a {
+    display: none;
+  }
+
+  .mail {
+    display: none;
+  }
+
+  .navigation,
+  .navBar {
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .time {
+    height: 16px;
+    width: 34px;
+  }
+
+  .phone-network {
+    gap: 0.5rem;
+  }
+
+  .phone-network img {
+    width: 18px;
+    height: 12px;
+  }
+
+  .illustration-2 {
+    display: none;
+  }
+
+  .illustration-container {
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+  }
+
+  .illustration-1 {
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .headline {
+    padding-top: 14rem;
+    max-width: 40rem;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+    /* justify-content: center; */
+  }
+
+  .primary-head {
+    width: 30rem;
+    font-size: 46px;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    line-height: 64px;
+  }
+
+  .secondary-head {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 1.2rem 0 0 0;
+  }
+
+  .about-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 30rem;
+    width: 100%;
+  }
+
+  .share {
+    justify-content: left;
+    width: 100%;
+    height: 3rem;
+    gap: 1rem;
+  }
+}
