@@ -7,15 +7,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style/mobile.css" />
+    <link rel="stylesheet" href="style/desktop.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="head flex-col">
-      <div class="flex-row mobile-icon">
+    <header class="head flex-row">
+      <div class="flex-row navigation">
         <img class="time" src="src/assets/imgs/Time.png" alt="" />
         <div class="phone-network flex-row">
           <img src="src/assets/imgs/Cellular Connection.png" alt="Cellular" />
@@ -23,9 +44,15 @@
           <img src="src/assets/imgs/Battery.png" alt="" />
         </div>
       </div>
-      <section class="navigation flex-row">
+      <section class="navBar flex-row">
         <h2 class="logo">My Logo</h2>
         <nav>
+          <div class="head-nav flex-row">
+            <a href="">Portfolio</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <img class="mail" src="src/assets/icons/Icon - Mail.png" alt="" />
+          </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             stroke="#fff"
@@ -45,5 +72,44 @@
         </nav>
       </section>
     </header>
+    <main>
+      <section class="landing flex-row">
+        <div class="headline flex-row">
+          <div class="details">
+            <div class="primary-head flex-col">
+              <h1>Hey There.</h1>
+              <h1>I'm Alex.</h1>
+            </div>
+            <div>
+              <h2 class="secondary-head">I'm a software developer</h2>
+              <p class="about-text">
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hesitate to contact me.
+              </p>
+            </div>
+          </div>
+          <div class="share flex-row">
+            <img src="src/assets/icons/Vector.png" alt="" />
+            <img src="src/assets/icons/Group.png" alt="" />
+            <img src="src/assets/icons/anglelist.png" alt="" />
+            <img src="src/assets/icons/tweeter.png" alt="" />
+            <img src="src/assets/icons/meduin.png" alt="" />
+          </div>
+        </div>
+        <div class="illustration-container flex-row">
+          <img
+            class="illustration-1"
+            src="src/assets/imgs/illustration-header-mobile.png"
+            alt=""
+          />
+          <img
+            class="illustration-2"
+            src="src/assets/imgs/Illustration-header@2x.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
