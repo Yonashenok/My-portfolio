@@ -271,17 +271,50 @@
 
   .about-section {
     background-color: #1c1a19;
-    margin-top: 5rem;
-    padding-top: 4rem;
     justify-content: start;
     align-items: center;
     position: relative;
+    margin-top: 5rem;
+    padding: 5rem 1.5rem 0.6rem 1.5rem;
+  }
+
+  .bor-line {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 100%;
   }
 
   .about-container {
     height: 386px;
     width: 327px;
-    background-color: rebeccapurple;
+    align-items: start;
+    gap: 1rem;
+  }
+
+  .about-head {
+    width: 327px;
+    height: 79px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    color: #ff6b00;
+  }
+
+  .about-detail {
+    width: 327px;
+    height: 148px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f7;
+  }
+
+  .resume-btn {
+    padding: 0.8rem 1.5rem;
   }
 
   .about-illustration {
@@ -294,5 +327,99 @@
     position: absolute;
     bottom: 0;
     right: -14%;
+  }
+
+  .lan-frameworks {
+    background-color: #1c1a19;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0 6rem 0;
+    gap: 2rem;
+  }
+
+  .lan-frameworks h3 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 1rem;
+    color: #fff;
+  }
+
+  .lan-skill {
+    gap: 0.5rem;
+  }
+
+  .lan-skill li {
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  .lan-icon img {
+    width: 16px;
+    height: 16px;
+    margin-top: 0.6rem;
+  }
+
+  .lan-icon {
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .get-touch {
+    justify-content: start;
+    align-items: center;
+  }
+
+  .get-text {
+    margin-top: 5rem;
+    max-width: 30rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .contact-form {
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .contact-form input {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .contact-form button {
+    margin-top: 1rem;
+  }
+
+  .footer-icon {
+    justify-content: center;
+    align-items: center;
   }
 }
