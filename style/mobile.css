@@ -392,6 +392,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    color: #172b4d;
   }
 
   .contact-form {
@@ -410,8 +411,9 @@
   }
 
   .contact-form textarea {
+    color: #3c3a39;
     width: 100%;
-    padding-left: 1rem;
+    padding: 0.3rem;
   }
 
   .contact-form button {
