@@ -60,7 +60,6 @@
     height: 124px;
     width: 327px;
     font-size: 56px;
-    font-family: "Crete Round", serif;
     font-weight: 400;
     line-height: 64px;
   }
@@ -97,5 +96,203 @@
     width: 100%;
     height: 3rem;
     gap: 1rem;
+  }
+
+  /* My recent work page style */
+
+  .works-section {
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .primary-work-head {
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 4rem 0;
+    border-bottom: 1px solid #212121;
+  }
+
+  .primary-work-head h1 {
+    width: 327px;
+    height: 83px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+  }
+
+  .container {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .placeholder-img {
+    width: 327px;
+    height: 237px;
+    margin-bottom: 1rem;
+  }
+
+  .placeholder-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .third-head {
+    text-align: left;
+    margin: 0;
+    width: 327px;
+    height: 36px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 1rem;
+    color: #091e42;
+  }
+
+  .daily-post-text {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+    max-width: 20rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .skills-lan {
+    list-style: none;
+    gap: 0.5rem;
+    width: 20rem;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .fonting {
+    color: #091e42;
+  }
+
+  .skills-lan a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid #8993a4;
+  }
+
+  .btn {
+    width: 20rem;
+    margin: 1.2rem 0 2rem 0;
+  }
+
+  .post-btn {
+    padding: 0.8rem 1rem;
+  }
+
+  .project-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+  }
+
+  .see-project {
+    height: 386px;
+    width: 327px;
+    margin-bottom: 3rem;
+    position: relative;
+    background-color: rebeccapurple;
+    background-image: url("/src/assets/imgs/bg-mobile-see.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .Fourth-head {
+    margin: 0;
+    text-align: left;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    line-height: 44px;
+    padding: 5rem 0 0.5rem 1rem;
+  }
+
+  .project-detail {
+    max-width: 20rem;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding-left: 1rem;
+  }
+
+  .my-project {
+    padding-left: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .my-project a {
+    color: #fff;
+    background: #ffffff3d;
+  }
+
+  .card-btn {
+    width: 327px;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .about-section {
+    background-color: #1c1a19;
+    margin-top: 5rem;
+    padding-top: 4rem;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+  }
+
+  .about-container {
+    height: 386px;
+    width: 327px;
+    background-color: rebeccapurple;
+  }
+
+  .about-illustration {
+    height: 386px;
+    width: 327px;
+    background-image: url("/src/assets/imgs/illustration-about-me-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right: -14%;
   }
 }
