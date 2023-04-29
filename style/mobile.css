@@ -113,7 +113,7 @@
     border-bottom: 1px solid #212121;
   }
 
-  .primary-work-head h1 {
+  .primary-work-head h2 {
     width: 327px;
     height: 83px;
     font-family: "Crete Round", serif;
@@ -130,10 +130,18 @@
     height: 100%;
   }
 
+  .set-grid {
+    grid-template-columns: repeat(1, 327px);
+  }
+
   .placeholder-img {
     width: 327px;
     height: 237px;
     margin-bottom: 1rem;
+    background-image: url("/src/assets/imgs/placeholder-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .placeholder-img img {
