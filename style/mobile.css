@@ -107,10 +107,10 @@
 
   .primary-work-head {
     height: 8rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5rem 0 4rem 0;
-    border-bottom: 1px solid #212121;
   }
 
   .primary-work-head h2 {
@@ -121,10 +121,18 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+    margin-left: 1rem;
     color: #1c1a19;
   }
 
+  .line {
+    width: 80%;
+    border-bottom: 1px solid #212121;
+    margin: 0 1.2rem;
+  }
+
   .container {
+    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;

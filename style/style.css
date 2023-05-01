@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
