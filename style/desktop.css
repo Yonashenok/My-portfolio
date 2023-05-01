@@ -153,7 +153,8 @@
   }
 
   .placeholder-img {
-    width: 868px;
+    max-width: 868px;
+    width: 100%;
     height: 548px;
     gap: 2rem;
     background-image: url("/src/assets/imgs/Placeholderdesktop.png");
@@ -236,14 +237,122 @@
 
   .see-project {
     height: 550px;
-    /* width: 400px; */
     position: relative;
-    background-image: url("/src/assets/imgs/bg-mobile-see.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     align-items: start;
-    background-color: orangered;
+    gap: 2rem;
+    padding: 3rem 0 1rem 0;
+  }
+
+  .see-project-1 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholder1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .see-project-2 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholder2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .see-project-3 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholder6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .see-project-4 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholderzzzz.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .see-project-5 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholder2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .see-project-6 {
+    width: 488px;
+    background-image: url("/src/assets/imgs/Img Placeholder6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Fourth-head {
+    margin: 0;
+    width: 20rem;
+    text-align: left;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    line-height: 44px;
+    padding: 5rem 0 0.5rem 1rem;
+  }
+
+  .project-detail {
+    max-width: 25rem;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    line-height: 24px;
+    padding-left: 1rem;
+  }
+
+  .my-project {
+    padding-left: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .my-project a {
+    color: #fff;
+    background: #ffffff3d;
+  }
+
+  .card-btn {
+    width: 488px;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  /* style about section */
+
+  .about-section {
+    background-color: #1c1a19;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+    padding: 5rem 1.5rem 0.6rem 1.5rem;
+  }
+
+  .bor-line {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 100%;
   }
 }

@@ -187,8 +187,11 @@
     list-style: none;
     gap: 0.5rem;
     width: 20rem;
-    justify-content: start;
-    align-items: center;
+  }
+
+  .tag {
+    float: left;
+    margin-right: 5px;
   }
 
   .fonting {
@@ -233,7 +236,6 @@
     width: 327px;
     margin-bottom: 3rem;
     position: relative;
-    background-color: rebeccapurple;
     background-image: url("/src/assets/imgs/bg-mobile-see.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,6 +286,8 @@
     left: 0;
     right: 0;
   }
+
+  /* style about section */
 
   .about-section {
     background-color: #1c1a19;
