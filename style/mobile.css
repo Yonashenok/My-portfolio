@@ -420,7 +420,7 @@
 
   .list-form li {
     list-style: none;
-    width: 135%;
+    width: 127%;
   }
 
   .btn-form {
@@ -444,6 +444,15 @@
     padding: 1rem;
     border: none;
     background: #fbf8f7;
+  }
+
+  textarea::placeholder {
+    color: #3c3a39;
+    font-family: "Inter", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .contact-form button {
