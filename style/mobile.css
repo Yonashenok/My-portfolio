@@ -412,9 +412,21 @@
   }
 
   .contact-form {
+    width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 0.5rem;
+  }
+
+  .list-form li {
+    list-style: none;
+    width: 135%;
+  }
+
+  .btn-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact-form input {
@@ -429,7 +441,9 @@
   .contact-form textarea {
     color: #3c3a39;
     width: 100%;
-    padding: 0.3rem;
+    padding: 1rem;
+    border: none;
+    background: #fbf8f7;
   }
 
   .contact-form button {
