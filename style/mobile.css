@@ -187,11 +187,8 @@
     list-style: none;
     gap: 0.5rem;
     width: 20rem;
-  }
-
-  .tag {
-    float: left;
-    margin-right: 5px;
+    justify-content: start;
+    align-items: center;
   }
 
   .fonting {
@@ -350,7 +347,9 @@
   }
 
   .lan-frameworks {
+    height: 120vh;
     background-color: #1c1a19;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -400,6 +399,7 @@
   .get-touch {
     justify-content: start;
     align-items: center;
+    grid-template-columns: repeat(1, 327px);
   }
 
   .get-text {
@@ -440,11 +440,21 @@
     margin-top: 1rem;
   }
 
+  .footer-icon li {
+    list-style: none;
+  }
+
+  .footer-icon img {
+    width: 24px;
+    height: 24px;
+  }
+
   .footer-icon {
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 6rem;
+    gap: 1rem;
     border-top: 1px solid #dfe1e6;
   }
 }
