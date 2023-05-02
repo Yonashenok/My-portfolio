@@ -236,7 +236,9 @@
 
   .see-project {
     height: 550px;
+
     /* width: 400px; */
+
     position: relative;
     background-image: url("/src/assets/imgs/bg-mobile-see.png");
     background-repeat: no-repeat;
