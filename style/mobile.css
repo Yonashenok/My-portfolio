@@ -412,9 +412,21 @@
   }
 
   .contact-form {
+    width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 0.5rem;
+  }
+
+  .list-form li {
+    list-style: none;
+    width: 127%;
+  }
+
+  .btn-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact-form input {
@@ -429,7 +441,18 @@
   .contact-form textarea {
     color: #3c3a39;
     width: 100%;
-    padding: 0.3rem;
+    padding: 1rem;
+    border: none;
+    background: #fbf8f7;
+  }
+
+  textarea::placeholder {
+    color: #3c3a39;
+    font-family: "Inter", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .contact-form button {
