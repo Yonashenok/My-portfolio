@@ -316,7 +316,10 @@
       </div>
       <div>
         <form class="flex-col contact-form">
-          <input type="text" placeholder="Full name" />
+          <div class="toggle">
+            <input type="text" placeholder="Full name" />
+            <input class="hidden-m" type="text" placeholder="Last name" />
+          </div>
           <input type="Email" placeholder="Email address" />
           <textarea
             name=""
@@ -325,9 +328,11 @@
             cols="30"
             rows="10"
           ></textarea>
-          <button type="submit" class="project-btn resume-btn">
-            Get in touch
-          </button>
+          <div class="btn-form">
+            <button type="submit" class="project-btn resume-btn">
+              Get in touch
+            </button>
+          </div>
         </form>
       </div>
     </footer>
