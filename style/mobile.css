@@ -7,6 +7,10 @@
     padding: 2rem 3rem;
   }
 
+  .hidden-m {
+    display: none;
+  }
+
   .head-nav a {
     display: none;
   }
@@ -430,10 +434,16 @@
     border-bottom: 1px solid #dbd8d7;
   }
 
+  .toggle {
+    width: 100%;
+    height: 3rem;
+  }
+
   .contact-form textarea {
     color: #3c3a39;
     width: 100%;
     padding: 0.3rem;
+    background-color: #fbf8f7;
   }
 
   .contact-form button {

@@ -250,42 +250,42 @@
   }
 
   .see-project-1 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholder1.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-2 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholder2.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-3 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholder6.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-4 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholderzzzz.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-5 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholder2.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-6 {
-    width: 488px;
+    width: 100%;
     background-image: url("/src/assets/imgs/Img Placeholder6.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -459,9 +459,70 @@
   }
 
   .get-touch {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+  }
+
+  .get-text {
+    max-width: 455px;
+    width: 100%;
+    height: 40rem;
+    padding-top: 8rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .contact-form {
+    width: 65rem;
+    height: 40rem;
+    padding-top: 8rem;
+    padding-right: 5rem;
     justify-content: start;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .contact-form input {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .toggle {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contact-form textarea {
+    color: #3c3a39;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #fbf8f7e3;
+  }
+
+  .contact-form button {
+    margin-top: 1rem;
+  }
+
+  .btn-form {
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
 
   .footer-icon li {
