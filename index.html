@@ -315,24 +315,46 @@
         </p>
       </div>
       <div>
-        <form class="flex-col contact-form">
-          <div class="toggle">
-            <input type="text" placeholder="Full name" />
-            <input class="hidden-m" type="text" placeholder="Last name" />
-          </div>
-          <input type="Email" placeholder="Email address" />
-          <textarea
-            name=""
-            placeholder="Write me something..."
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <div class="btn-form">
-            <button type="submit" class="project-btn resume-btn">
-              Get in touch
-            </button>
-          </div>
+        <form
+          class="flex-col contact-form"
+          action="https://formspree.io/f/xbjewokr"
+          method="POST"
+        >
+          <ul class="list-form">
+            <li>
+              <input
+                type="text"
+                name="text"
+                placeholder="Full name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Email address"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                name="textarea"
+                placeholder="Write me something..."
+                id="feedback"
+                cols="30"
+                rows="10"
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li class="btn-form">
+              <button type="submit" class="project-btn resume-btn">
+                Get in touch
+              </button>
+            </li>
+          </ul>
         </form>
       </div>
     </footer>

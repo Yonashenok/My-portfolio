@@ -237,6 +237,9 @@
 
   .see-project {
     height: 550px;
+
+    /* width: 400px; */
+
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
