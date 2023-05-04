@@ -355,15 +355,15 @@
 
   .bor-line {
     border-bottom: 1px solid #fff;
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 
   .about-container {
     height: 386px;
     width: 566px;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
     align-items: start;
     gap: 1rem;
   }
@@ -399,12 +399,12 @@
     width: 1000px;
     background-image: url("/src/assets/imgs/illustration-about-me@2x-desktop.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 90%;
     background-position: center;
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate3d(95%, -50%, 0);
+    transform: translate3d(100%, -50%, 0);
   }
 
   .lan-frameworks {
@@ -413,7 +413,7 @@
     justify-content: center;
     align-items: start;
     padding: 6rem 0 6rem 0;
-    gap: 2rem;
+    gap: 8rem;
   }
 
   .lan-frameworks h3 {
@@ -499,6 +499,15 @@
     padding-left: 1rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid #dbd8d7;
+  }
+
+  textarea::placeholder {
+    font-family: "Inter", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
   }
 
   .toggle {
