@@ -79,6 +79,10 @@
     margin-top: 7rem;
   }
 
+  .share img {
+    transform: ;
+  }
+
   .illustration-container {
     position: absolute;
     bottom: 0;
