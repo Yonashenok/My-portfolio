@@ -1,322 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="style/mobile.css" />
-  <link rel="stylesheet" href="style/desktop.css" />
-  <link rel="stylesheet" href="style/style.css" />
-  <title>My Portfolio</title>
-</head>
-
-<body>
-  <header class="head flex-row">
-    <section class="navBar flex-row">
-      <ul class="logo">
-        <li><a href="#">My Logo</a></li>
-      </ul>
-      <nav>
-        <ul class="head-nav flex-row">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li>
-            <img class="mail" src="src/assets/icons/Icon - Mail.png" alt="Mail-Box" />
-          </li>
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" stroke="#fff" viewBox="0 0 24 24" height="24" width="24"
-              stroke-width="1.5" stroke="currentColor" class="menu">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </li>
+    <link rel="stylesheet" href="style/mobile.css" />
+    <link rel="stylesheet" href="style/desktop.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- Todo: main header and navbar section  -->
+    <header class="head flex-row">
+      <section class="navBar flex-row">
+        <ul class="logo">
+          <li><a href="#">My Logo</a></li>
         </ul>
-      </nav>
-    </section>
-  </header>
-  <main class="main-container">
-    <section class="landing flex-row">
-      <div class="headline flex-row">
-        <div class="details">
-          <h1 class="primary-head">
-            <span class="intro">Hey There.</span>
-            <span class="intro">I'm Yonas.</span>
-          </h1>
-          <div>
-            <h2 class="secondary-head">I'm a software developer</h2>
-            <p class="about-text">
-              I can help you build a product , feature or website Look through
-              some of my work and experience! If you like what you see and
-              have a project you need coded, don’t hesitate to contact me.
-            </p>
+        <nav>
+          <ul class="head-nav flex-row">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <img
+                class="mail"
+                src="src/assets/icons/Icon - Mail.png"
+                alt="Mail-Box"
+              />
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#fff"
+                viewBox="0 0 24 24"
+                height="24"
+                width="24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="menu"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="main-container">
+      <!-- Todo: intro or headline (landing page) section  -->
+      <section class="landing flex-row">
+        <div class="headline flex-row">
+          <div class="details">
+            <h1 class="primary-head">
+              <span class="intro">Hey There.</span>
+              <span class="intro">I'm Yonas.</span>
+            </h1>
+            <div>
+              <h2 class="secondary-head">I'm a software developer</h2>
+              <p class="about-text">
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hesitate to contact me.
+              </p>
+            </div>
           </div>
+          <ul class="share flex-row">
+            <li><img src="src/assets/icons/Vector.png" alt="Github" /></li>
+            <li><img src="src/assets/icons/Group.png" alt="Linkedin" /></li>
+            <li>
+              <img src="src/assets/icons/anglelist.png" alt="Angellist" />
+            </li>
+            <li><img src="src/assets/icons/tweeter.png" alt="Twitter" /></li>
+            <li><img src="src/assets/icons/meduin.png" alt="medium" /></li>
+          </ul>
         </div>
-        <ul class="share flex-row">
-          <li><img src="src/assets/icons/Vector.png" alt="Github" /></li>
-          <li><img src="src/assets/icons/Group.png" alt="Linkedin" /></li>
-          <li>
-            <img src="src/assets/icons/anglelist.png" alt="Angellist" />
-          </li>
-          <li><img src="src/assets/icons/tweeter.png" alt="Twitter" /></li>
-          <li><img src="src/assets/icons/meduin.png" alt="medium" /></li>
-        </ul>
-      </div>
-      <div class="illustration-container"></div>
-    </section>
-    <section class="works-section">
-      <div class="primary-work-head flex-row">
-        <h2>My Recent Works</h2>
-        <span class="line"></span>
-      </div>
-      <div class="set-grid grid">
-        <div class="container flex-row">
-          <div class="placeholder-img"></div>
-          <div class="flex-col multi-post">
-            <h3 class="third-head">Multi-Post Stories</h3>
-            <p class="daily-post-text">
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required. has been the industry's standard dummy
-              text ever since the 1500s, when an unknown printer took a
-              standard dummy text.
+        <div class="illustration-container"></div>
+      </section>
+      <!-- Todo: my projects and showcases section  -->
+      <section class="works-section">
+        <div class="primary-work-head flex-row">
+          <h2>My Recent Works</h2>
+          <span class="line"></span>
+        </div>
+        <div class="set-grid grid">
+          <div class="container flex-row">
+            <div class="placeholder-img"></div>
+            <div class="flex-col multi-post">
+              <h3 class="third-head">Multi-Post Stories</h3>
+              <p class="daily-post-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <ul class="skills-lan flex-row fonting">
+                <li class="tag"><a href="#">CSS</a></li>
+                <li class="tag"><a href="#">HTML</a></li>
+                <li class="tag"><a href="#">Bootstrap</a></li>
+                <li class="tag"><a href="#">Ruby</a></li>
+              </ul>
+              <div class="btn">
+                <button class="project-btn post-btn" type="button">
+                  See Project
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="see-project see-project-1">
+            <h4 class="Fourth-head hidden">Professional Art Printing Data</h4>
+            <p class="project-detail hidden">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
             </p>
-            <ul class="skills-lan flex-row fonting">
-              <li><a href="#">CSS</a></li>
+            <div class="hidden">
+              <ul class="skills-lan flex-row my-project hidden">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+              </ul>
+            </div>
+            <div class="btn">
+              <button type="button" class="project-btn card-btn">
+                See Project
+              </button>
+            </div>
+          </div>
+          <div class="see-project see-project-2">
+            <h4 class="Fourth-head">Data Dashboard Healthcare</h4>
+            <p class="project-detail">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+            <ul class="skills-lan flex-row my-project">
               <li><a href="#">HTML</a></li>
               <li><a href="#">Bootstrap</a></li>
               <li><a href="#">Ruby</a></li>
             </ul>
-            <div class="btn">
-              <button class="project-btn post-btn" type="button">
+            <div class="btn hidden">
+              <button type="button" class="project-btn card-btn">
+                See Project
+              </button>
+            </div>
+          </div>
+          <div class="see-project see-project-3">
+            <h4 class="Fourth-head">Website Portfolio</h4>
+            <p class="project-detail">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+            <ul class="skills-lan flex-row my-project">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+            <div class="btn hidden">
+              <button class="project-btn card-btn" type="button">
+                See Project
+              </button>
+            </div>
+          </div>
+          <div class="see-project see-project-4">
+            <h4 class="Fourth-head">Professional Art Printing Data</h4>
+            <p class="project-detail">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+            <ul class="skills-lan flex-row my-project">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+            <div class="btn hidden">
+              <button class="project-btn card-btn" type="button">
+                See Project
+              </button>
+            </div>
+          </div>
+          <div class="see-project see-project-5">
+            <h4 class="Fourth-head">Data Dashboard Healthcare</h4>
+            <p class="project-detail">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+            <ul class="skills-lan flex-row my-project">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+            <div class="btn hidden">
+              <button type="button" class="project-btn card-btn">
+                See Project
+              </button>
+            </div>
+          </div>
+          <div class="see-project see-project-6">
+            <h4 class="Fourth-head">Website Portfolio</h4>
+            <p class="project-detail">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+            <ul class="skills-lan flex-row my-project">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+            <div class="btn hidden">
+              <button type="button" class="project-btn card-btn">
                 See Project
               </button>
             </div>
           </div>
         </div>
-        <div class="see-project">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button type="button" class="project-btn card-btn">
-              See Project
-            </button>
+      </section>
+      <!-- Todo:  About me section  -->
+      <section class="sec-back">
+        <div class="about-section flex-col">
+          <div class="bor-line">
+            <div class="about-container flex-col">
+              <h2 class="about-head">About me</h2>
+              <p class="about-detail">
+                Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hesitate to contact me.
+              </p>
+              <div class="btn-1">
+                <button type="button" class="project-btn resume-btn">
+                  Get my resume
+                </button>
+              </div>
+            </div>
+            <div class="about-illustration" role="img"></div>
           </div>
         </div>
-        <div class="see-project">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button type="button" class="project-btn card-btn">
-              See Project
-            </button>
+        <!-- Todo: Skills and frameworks -->
+        <div class="lan-frameworks flex-row">
+          <div class="flex-col lan-skill">
+            <div class="lan-icon">
+              <img
+                src="src/assets/imgs/Rectangle 55.png"
+                alt="Diamond-shape-icon"
+              />
+              <h3>Language</h3>
+            </div>
+            <ul>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>Ruby</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="flex-col lan-skill">
+            <div class="lan-icon">
+              <img
+                src="src/assets/imgs/Rectangle 56.png"
+                alt="Rectangle-shape-icon"
+              />
+              <h3>Frameworks</h3>
+            </div>
+            <ul>
+              <li>React.js</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="flex-col lan-skill">
+            <div class="lan-icon">
+              <img
+                src="src/assets/imgs/Rectangle 57.png"
+                alt="circle-shape-icon"
+              />
+              <h3>Skills</h3>
+            </div>
+            <ul>
+              <li>Data management</li>
+              <li>Version Control</li>
+              <li>CLI</li>
+              <li>API Design</li>
+              <li>Web development</li>
+            </ul>
           </div>
         </div>
-        <div class="see-project">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button class="project-btn card-btn" type="button">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="see-project">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button class="project-btn card-btn" type="button">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="see-project">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button type="button" class="project-btn card-btn">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="see-project flex-col">
-          <h4 class="Fourth-head">Professional Art Printing Data</h4>
-          <p class="project-detail">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-lan flex-row my-project">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-          </ul>
-          <div class="btn">
-            <button type="button" class="project-btn card-btn">
-              See Project
-            </button>
-          </div>
-        </div>
+      </section>
+    </main>
+    <!-- Todo: contact form footer section  -->
+    <footer class="get-touch grid">
+      <div class="get-text">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
       </div>
-    </section>
-    <section class="about-section flex-col">
-      <div class="bor-line">
-        <div class="about-container flex-col">
-          <h2 class="about-head">About me</h2>
-          <p class="about-detail">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hesitate to contact me.
-          </p>
-          <div class="btn">
-            <button type="button" class="project-btn resume-btn">
-              Get my resume
-            </button>
-          </div>
-        </div>
-        <div class="about-illustration" role="img"></div>
+      <div>
+        <!-- Todo: contact form  -->
+        <form
+          class="flex-col contact-form"
+          action="https://formspree.io/f/xbjewokr"
+          method="POST"
+        >
+          <ul class="list-form">
+            <li>
+              <input
+                type="text"
+                name="text"
+                placeholder="Full name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Email address"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                name="textarea"
+                placeholder="Write me something..."
+                id="feedback"
+                cols="30"
+                rows="5"
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li class="btn-form">
+              <button type="submit" class="project-btn resume-btn">
+                Get in touch
+              </button>
+            </li>
+          </ul>
+        </form>
       </div>
-    </section>
-    <section class="lan-frameworks flex-col">
-      <div class="flex-col lan-skill">
-        <div class="lan-icon">
-          <img src="src/assets/imgs/Rectangle 55.png" alt="Diamond-shape-icon" />
-          <h3>Language</h3>
-        </div>
-        <ul>
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>Ruby</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class="flex-col lan-skill">
-        <div class="lan-icon">
-          <img src="src/assets/imgs/Rectangle 56.png" alt="Rectangle-shape-icon" />
-          <h3>Frameworks</h3>
-        </div>
-        <ul>
-          <li>React.js</li>
-          <li>Ruby on rails</li>
-          <li>RSpec</li>
-          <li>Capybara</li>
-        </ul>
-      </div>
-      <div class="flex-col lan-skill">
-        <div class="lan-icon">
-          <img src="src/assets/imgs/Rectangle 57.png" alt="circle-shape-icon" />
-          <h3>Skills</h3>
-        </div>
-        <ul>
-          <li>Data management</li>
-          <li>Version Control</li>
-          <li>CLI</li>
-          <li>API Design</li>
-          <li>Web development</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="get-touch grid grid-col-1">
-    <div>
-      <h2 class="get-text">
-        I'm always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.
-      </h2>
-    </div>
-    <div>
-      <form class="flex-col contact-form" action="https://formspree.io/f/xbjewokr" method="POST">
-        <ul class="list-form">
-          <li>
-            <label for="fullName">
-              <input type="text" id="fullName" name="text" placeholder="Full name" maxlength="30" required />
-            </label>
-          </li>
-          <li>
-            <label for="email">
-              <input type="Email" id="email" name="Email" placeholder="Email address" required />
-            </label>
-          </li>
-          <li>
-            <label for="feedback">
-              <textarea name="textarea" placeholder="Write me something..." id="feedback" cols="30" rows="10"
-                maxlength="500" required></textarea>
-            </label>
-          </li>
-          <li class="btn-form">
-            <button type="submit" class="project-btn resume-btn">
-              Get in touch
-            </button>
-          </li>
-        </ul>
-      </form>
-    </div>
-  </footer>
-  <ul class="share flex-row footer-icon">
-    <li>
-      <img src="src/assets/icons/Icon -GitHubgithub.png" alt="Github" />
-    </li>
-    <li>
-      <img src="src/assets/icons/Icon - Linkedin.png" alt="Linkedin" />
-    </li>
-    <li>
-      <img src="src/assets/icons/Icon - Angelist.png" alt="Angellist" />
-    </li>
-    <li><img src="src/assets/icons/Icon - Twitter.png" alt="Twitter" /></li>
-    <li><img src="src/assets/icons/Icon - Medium.png" alt="medium" /></li>
-  </ul>
-</body>
-
+      <div class="line-footer"></div>
+      <ul class="flex-row footer-icon">
+        <li>
+          <img src="src/assets/icons/Icon -GitHubgithub.png" alt="Github" />
+        </li>
+        <li>
+          <img src="src/assets/icons/Icon - Linkedin.png" alt="Linkedin" />
+        </li>
+        <li>
+          <img src="src/assets/icons/Icon - Angelist.png" alt="Angellist" />
+        </li>
+        <li>
+          <img src="src/assets/icons/Icon - Twitter.png" alt="Twitter" />
+        </li>
+        <li class="last-child">
+          <img src="src/assets/icons/Icon - Medium.png" alt="medium" />
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
