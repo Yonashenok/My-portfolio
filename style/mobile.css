@@ -47,13 +47,13 @@
     width: 15rem;
     height: 20rem;
     background-image: url("/src/assets/imgs/illustration-header-mobile.png");
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom -100px right 2px;
   }
 
   .headline {
-    padding-top: 12rem;
+    padding-top: 8rem;
     max-width: 40rem;
     height: 100%;
     width: 100%;
