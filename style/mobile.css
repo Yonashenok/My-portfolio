@@ -46,7 +46,7 @@
     right: 0;
     width: 15rem;
     height: 20rem;
-    background-image: url("/src/assets/imgs/illustration-header-mobile.png");
+    background-image: url('./imgs/illustration-header-mobile.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom -100px right 2px;
@@ -78,7 +78,7 @@
   }
 
   .secondary-head {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -88,7 +88,7 @@
   }
 
   .about-text {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 24px;
     max-width: 30rem;
@@ -120,7 +120,7 @@
   .primary-work-head h2 {
     width: 327px;
     height: 83px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -150,7 +150,7 @@
     width: 327px;
     height: 237px;
     margin-bottom: 1rem;
-    background-image: url("/src/assets/imgs/placeholder-mobile.png");
+    background-image: url('./imgs/placeholder-mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -166,7 +166,7 @@
     margin: 0;
     width: 327px;
     height: 36px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -176,7 +176,7 @@
   }
 
   .daily-post-text {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -201,7 +201,7 @@
 
   .skills-lan a {
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -222,7 +222,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -237,7 +237,7 @@
     width: 327px;
     margin-bottom: 3rem;
     position: relative;
-    background-image: url("/src/assets/imgs/bg-mobile-see.png");
+    background-image: url('./imgs/bg-mobile-see.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,7 +248,7 @@
   .Fourth-head {
     margin: 0;
     text-align: left;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -260,7 +260,7 @@
   .project-detail {
     max-width: 20rem;
     width: 100%;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -315,7 +315,7 @@
   .about-head {
     width: 327px;
     height: 79px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -326,7 +326,7 @@
   .about-detail {
     width: 327px;
     height: 148px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -341,7 +341,7 @@
   .about-illustration {
     height: 386px;
     width: 327px;
-    background-image: url("/src/assets/imgs/illustration-about-me-mobile.png");
+    background-image: url('./imgs/illustration-about-me-mobile.png');
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
@@ -361,7 +361,7 @@
   }
 
   .lan-frameworks h3 {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -376,7 +376,7 @@
 
   .lan-skill li {
     list-style: none;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -410,7 +410,7 @@
     max-width: 30rem;
     width: 100%;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -460,7 +460,7 @@
 
   textarea::placeholder {
     color: #3c3a39;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 15px;
