@@ -273,6 +273,7 @@
   }
 
   .project-btn {
+    border: 1px solid #f55800;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,9 +282,6 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #fff;
-    border: none;
-    background-color: #ff6b00;
   }
 
   .see-project {

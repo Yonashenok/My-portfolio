@@ -139,7 +139,6 @@ body {
 }
 
 .project-btn {
-  /* transition: background-color 0.16s, color 0.23s ease-in 0.1s; */
   position: relative;
   color: #f55800;
 }
@@ -180,6 +179,7 @@ body {
 
 .project-btn:hover {
   color: #fff;
+  background-color: #f55800;
 }
 
 .skills-lan li {
