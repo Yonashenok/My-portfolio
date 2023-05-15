@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="style/mobile.css" />
     <link rel="stylesheet" href="style/desktop.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <script defer src="./index.js"></script>
     <title>My Portfolio</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
     <header class="head flex-row">
       <section class="navBar flex-row">
         <ul class="logo">
-          <li><a href="#">My Logo</a></li>
+          <li class="navLogo"><a href="#">My Logo</a></li>
         </ul>
         <nav>
           <ul class="head-nav flex-row">
@@ -53,23 +54,44 @@
                 alt="Mail-Box"
               />
             </li>
-            <li>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#fff"
-                viewBox="0 0 24 24"
-                height="24"
-                width="24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="menu"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
+            <li></li>
+            <li class="menu_section">
+              <div class="crossSign">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#fff"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="menu"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <div class="hamburgermenu hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  height="24"
+                  width="24"
+                  stroke="#fff"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </div>
             </li>
           </ul>
         </nav>
@@ -78,6 +100,13 @@
     <main class="main-container">
       <!-- Todo: intro or headline (landing page) section  -->
       <section class="landing flex-row">
+        <div class="menu_m hidden">
+          <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
         <div class="headline flex-row">
           <div class="details">
             <h1 class="primary-head">
