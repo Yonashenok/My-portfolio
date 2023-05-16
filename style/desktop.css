@@ -31,6 +31,43 @@
     height: 24px;
   }
 
+  .overly {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all ease-in 0.15s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crossIcon {
+    margin-right: 2rem;
+    position: absolute;
+    top: 12px;
+    right: -12px;
+  }
+
+  .popup {
+    background-color: #fff;
+    width: 90%;
+    height: 95%;
+    z-index: 120;
+    padding: 2rem 0.5rem 0 0.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
   .headline {
     max-width: 70rem;
     width: 100%;
