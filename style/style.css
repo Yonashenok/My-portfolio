@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   margin: 0 auto;
 }
@@ -48,7 +52,7 @@ body {
 
 .head-nav li {
   list-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -60,7 +64,7 @@ body {
 }
 
 .logo a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -75,6 +79,7 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0 auto;
+  position: relative;
   overflow: hidden;
 }
 
@@ -134,13 +139,12 @@ body {
 }
 
 .project-btn {
-  /* transition: background-color 0.16s, color 0.23s ease-in 0.1s; */
   position: relative;
   color: #f55800;
 }
 
 .project-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -157,7 +161,7 @@ body {
 }
 
 .project-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -175,6 +179,7 @@ body {
 
 .project-btn:hover {
   color: #fff;
+  background-color: #f55800;
 }
 
 .skills-lan li {

@@ -11,6 +11,60 @@
     display: none;
   }
 
+  .crossSign {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+  }
+
+  .hamburgermenu {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+  }
+
+  .menu_m {
+    background-color: #3c3a39;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 10;
+    transition: all ease-in 0.5s;
+  }
+
+  .menu_m ul {
+    text-align: left;
+    padding: 2rem 2rem 0 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .menu_m li {
+    list-style: none;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #6f6c6b;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .menu_m a {
+    color: #fff5e1;
+    text-decoration: none;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
   .head-nav a {
     display: none;
   }
@@ -219,6 +273,7 @@
   }
 
   .project-btn {
+    border: 1px solid #f55800;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,9 +282,6 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #fff;
-    border: none;
-    background-color: #ff6b00;
   }
 
   .see-project {

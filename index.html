@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="style/mobile.css" />
     <link rel="stylesheet" href="style/desktop.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <script defer src="./index.js"></script>
     <title>My Portfolio</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
     <header class="head flex-row">
       <section class="navBar flex-row">
         <ul class="logo">
-          <li><a href="#">My Logo</a></li>
+          <li class="navLogo"><a href="#">My Logo</a></li>
         </ul>
         <nav>
           <ul class="head-nav flex-row">
@@ -53,23 +54,44 @@
                 alt="Mail-Box"
               />
             </li>
-            <li>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#fff"
-                viewBox="0 0 24 24"
-                height="24"
-                width="24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="menu"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
+            <li></li>
+            <li class="menu_section">
+              <div class="crossSign">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#fff"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="menu"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <div class="hamburgermenu hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  height="24"
+                  width="24"
+                  stroke="#fff"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </div>
             </li>
           </ul>
         </nav>
@@ -78,6 +100,13 @@
     <main class="main-container">
       <!-- Todo: intro or headline (landing page) section  -->
       <section class="landing flex-row">
+        <div class="menu_m hidden">
+          <ul>
+            <li><a class="close-menu" href="#portfolio">Portfolio</a></li>
+            <li><a class="close-menu" href="#about">About</a></li>
+            <li><a class="close-menu" href="#contact">Contact</a></li>
+          </ul>
+        </div>
         <div class="headline flex-row">
           <div class="details">
             <h1 class="primary-head">
@@ -106,7 +135,7 @@
         <div class="illustration-container"></div>
       </section>
       <!-- Todo: my projects and showcases section  -->
-      <section class="works-section">
+      <section class="works-section" id="portfolio">
         <div class="primary-work-head flex-row">
           <h2>My Recent Works</h2>
           <span class="line"></span>
@@ -129,7 +158,7 @@
                 <li class="tag"><a href="#">Ruby</a></li>
               </ul>
               <div class="btn">
-                <a class="project-btn post-btn" type="button"> See Project </a>
+                <a class="project-btn post-btn" type="button">See Project</a>
               </div>
             </div>
           </div>
@@ -147,7 +176,7 @@
               </ul>
             </div>
             <div class="btn">
-              <a type="button" class="project-btn card-btn"> See Project </a>
+              <a type="button" class="project-btn card-btn">See Project</a>
             </div>
           </div>
           <div class="see-project see-project-2">
@@ -238,7 +267,7 @@
         </div>
       </section>
       <!-- Todo:  About me section  -->
-      <section class="sec-back">
+      <section class="sec-back" id="about">
         <div class="about-section flex-col">
           <div class="bor-line">
             <div class="about-container flex-col">
@@ -262,10 +291,7 @@
         <div class="lan-frameworks flex-row">
           <div class="flex-col lan-skill">
             <div class="lan-icon">
-              <img
-                src="src/assets/imgs/Rectangle 55.png"
-                alt="Diamond-shape-icon"
-              />
+              <img src="style/imgs/Rectangle 55.png" alt="Diamond-shape-icon" />
               <h3>Language</h3>
             </div>
             <ul>
@@ -278,7 +304,7 @@
           <div class="flex-col lan-skill">
             <div class="lan-icon">
               <img
-                src="src/assets/imgs/Rectangle 56.png"
+                src="style/imgs/Rectangle 56.png"
                 alt="Rectangle-shape-icon"
               />
               <h3>Frameworks</h3>
@@ -293,10 +319,7 @@
           </div>
           <div class="flex-col lan-skill">
             <div class="lan-icon">
-              <img
-                src="src/assets/imgs/Rectangle 57.png"
-                alt="circle-shape-icon"
-              />
+              <img src="style/imgs/Rectangle 57.png" alt="circle-shape-icon" />
               <h3>Skills</h3>
             </div>
             <ul>
@@ -311,7 +334,7 @@
       </section>
     </main>
     <!-- Todo: contact form footer section  -->
-    <footer class="get-touch grid">
+    <footer class="get-touch grid" id="contact">
       <div class="get-text">
         <p>
           I'm always interested in hearing about new projects, so if you'd like
