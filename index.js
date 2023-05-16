@@ -1,9 +1,9 @@
 const hamburgerMenu = document.querySelector('.menu_section');
-const logoCross = document.querySelector('.crossSign');
+const navMenus = document.querySelectorAll('.close-menu');
 const logoHem = document.querySelector('.hamburgermenu');
 const navBar = document.querySelector('.menu_m');
 const logo = document.querySelector('.navLogo');
-const navMenus = document.querySelectorAll('.close-menu');
+const logoCross = document.querySelector('.crossSign');
 
 const toggleMenuHandler = (event) => {
   event.preventDefault();
