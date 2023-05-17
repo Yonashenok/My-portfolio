@@ -41,8 +41,8 @@
 
   .popup {
     background-color: #fff;
-    width: 90%;
-    height: 95%;
+    width: 343px;
+    height: 750px;
     z-index: 120;
     padding: 2rem 0.5rem 0 0.5rem;
     position: relative;
@@ -70,6 +70,10 @@
     line-height: 24px;
   }
 
+  .bg-img {
+    margin-bottom: 2rem;
+  }
+
   .crossIcon {
     margin-right: 2rem;
     position: absolute;
@@ -82,7 +86,8 @@
   }
 
   .popup-btn {
-    gap: 2rem;
+    margin-top: 1rem;
+    gap: 1.5rem;
   }
 
   .popup-btn li {
@@ -383,6 +388,8 @@
 
   .project-btn {
     border: 1px solid #f55800;
+    background-color: #f55800;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
