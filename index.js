@@ -131,15 +131,6 @@ const renderPopUp = (e) => {
     <p>
     ${templateMakeup.description}
     </p>
-
-    <p class="text-box hidden-m">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ex ipsam
-    eligendi impedit, laudantium officia exercitationem non error ab
-    corrupti modi veniam, laborum eum earum vitae voluptates fugiat, sunt
-    aut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-    magnam facilis ex, est recusandae non fugiat odio ipsum ipsam iste ab
-    nostrum aperiam dolor? Modi doloremque beatae voluptatum maxime hic!  
-    </p>
     <ul class="popup-btn flex-row">
       <li class="flex-row popup-cont">
         <a href="#">See live</a>
