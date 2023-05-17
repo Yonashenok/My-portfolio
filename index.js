@@ -73,10 +73,6 @@ const toggleMenuHandler = (event) => {
   logo.classList.toggle('hidden-g');
 };
 
-const closePopUpHandler = (event) => {
-  event.preventDefault();
-  overly.classList.add('hidden-g');
-};
 const scrollHandler = (event) => {
   event.preventDefault();
   if (event.target.classList.contains('close-menu')) {
@@ -85,6 +81,11 @@ const scrollHandler = (event) => {
       .querySelector(id)
       .scrollIntoView({ behavior: 'smooth', inline: 'nearest' });
   }
+};
+
+const closePopUpHandler = (event) => {
+  event.preventDefault();
+  overly.classList.add('hidden-g');
 };
 
 const renderPopUp = (e) => {
