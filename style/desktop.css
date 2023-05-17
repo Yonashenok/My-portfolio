@@ -377,6 +377,10 @@
       url('./imgs/work2.png');
   }
 
+  .bg-card:hover {
+    background-image: url('./imgs/work2.png');
+  }
+
   .see-project-1 {
     transform: rotate(-0.55deg);
     width: 100%;
