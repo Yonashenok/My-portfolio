@@ -329,6 +329,15 @@
   .btn {
     width: 20rem;
     margin: 1.2rem 0 2rem 0;
+    display: none;
+  }
+
+  .see-project:hover .card-box {
+    display: none;
+  }
+
+  .see-project:hover .btn {
+    display: block;
   }
 
   .post-btn {
@@ -351,9 +360,6 @@
   .see-project {
     height: 550px;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -362,44 +368,53 @@
     padding: 3rem 0 1rem 0;
   }
 
+  .bg-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.902) 61.94%
+      ),
+      url('./imgs/work2.png');
+  }
+
   .see-project-1 {
+    transform: rotate(-0.55deg);
     width: 100%;
-    background-image: url('./imgs/Placeholder1.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-2 {
     width: 100%;
-    background-image: url('./imgs/Placeholder2.png');
+    transform: rotate(-0.55deg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-3 {
+    transform: rotate(-0.55deg);
     width: 100%;
-    background-image: url('./imgs/Placeholder6.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-4 {
+    transform: rotate(-0.55deg);
     width: 100%;
-    background-image: url('./imgs/Placeholderzzzz.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-5 {
+    transform: rotate(-0.55deg);
     width: 100%;
-    background-image: url('./imgs/Placeholder2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .see-project-6 {
+    transform: rotate(-0.55deg);
     width: 100%;
-    background-image: url('./imgs/Placeholder6.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
