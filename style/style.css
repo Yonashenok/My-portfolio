@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.hidden {
+.hidden-g {
   display: none;
 }
 
@@ -140,7 +140,6 @@ body {
 
 .project-btn {
   position: relative;
-  color: #f55800;
 }
 
 .project-btn::before {
