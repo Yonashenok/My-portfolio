@@ -165,11 +165,6 @@ const renderPopUp = (e) => {
   closePopUp.addEventListener('click', closePopUpHandler);
 };
 
-const reset = () => {
-  user.value = '';
-  email.value = '';
-  textBox.textContent = '';
-};
 
 const setLocalStorage = (data) => {
   localStorage.setItem('userData', JSON.stringify(data));
@@ -194,7 +189,6 @@ const formSubmitHandler = (e) => {
     };
     setLocalStorage(userData);
     form.submit();
-    reset();
   } else {
     massageEmail.textContent = invalidEmail;
   }
