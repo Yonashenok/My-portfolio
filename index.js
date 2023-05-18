@@ -169,7 +169,7 @@ const reset = () => {
   userName.value = '';
   email.value = '';
   textBox.textContent = '';
-}
+};
 
 const formSubmitHandler = (e) => {
   e.preventDefault();
