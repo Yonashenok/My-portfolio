@@ -13,7 +13,6 @@ const email = document.querySelector('.email');
 const textBox = document.querySelector('.textBox');
 const messageValid = document.querySelector('.validation');
 const massageEmail = document.querySelector('.validationemail');
-const success = 'Form Successful submitted';
 const invalidEmail = 'Please enter a correct email address format';
 let closePopUp;
 const projectData = [
@@ -182,13 +181,13 @@ const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
     massageEmail.textContent = '';
-    messageValid.textContent = success;
     const userData = {
       userName: user.value,
       userEmail: email.value,
     };
     setLocalStorage(userData);
     form.submit();
+
   } else {
     massageEmail.textContent = invalidEmail;
   }
