@@ -8,7 +8,7 @@ const overly = document.querySelector('.overly');
 const showPopups = document.querySelectorAll('.show-project');
 const logoCross = document.querySelector('.crossSign');
 const form = document.querySelector('.contact-form');
-const userName = document.querySelector('.name');
+const user = document.querySelector('.name');
 const email = document.querySelector('.email');
 const textBox = document.querySelector('.textBox');
 const messageValid = document.querySelector('.validation');
@@ -166,23 +166,43 @@ const renderPopUp = (e) => {
 };
 
 const reset = () => {
-  userName.value = '';
+  user.value = '';
   email.value = '';
   textBox.textContent = '';
 };
 
+// const removeLocalStorage = () => {
+//   localStorage.removeItem('userData');
+// };
+// removeLocalStorage();
+
+const setLocalStorage = (data) => {
+  localStorage.setItem('userData', JSON.stringify(data));
+};
+
+const getLocalStorage = () => {
+  if (!JSON.parse(localStorage.getItem('userData'))) return;
+  const { userEmail, userName } = JSON.parse(localStorage.getItem('userData'));
+  user.value = userName;
+  email.value = userEmail;
+};
+getLocalStorage();
 const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
     massageEmail.textContent = '';
-    form.submit();
     messageValid.textContent = success;
+    const userData = {
+      userName: user.value,
+      userEmail: email.value,
+    };
+    setLocalStorage(userData);
+    form.submit();
     reset();
   } else {
     massageEmail.textContent = invalidEmail;
   }
 };
-
 form.addEventListener('submit', formSubmitHandler);
 showPopups.forEach((btn) => {
   btn.addEventListener('click', renderPopUp);
