@@ -7,6 +7,14 @@ const popups = document.querySelector('.popup');
 const overly = document.querySelector('.overly');
 const showPopups = document.querySelectorAll('.show-project');
 const logoCross = document.querySelector('.crossSign');
+const form = document.querySelector('.contact-form');
+const userName = document.querySelector('.name');
+const email = document.querySelector('.email');
+const textBox = document.querySelector('.textBox');
+const messageValid = document.querySelector('.validation');
+const massageEmail = document.querySelector('.validationemail');
+const success = 'Form Successful submitted';
+const invalidEmail = 'Please enter a correct email address format';
 let closePopUp;
 const projectData = [
   {
@@ -157,6 +165,25 @@ const renderPopUp = (e) => {
   closePopUp.addEventListener('click', closePopUpHandler);
 };
 
+const reset = () => {
+  userName.value = '';
+  email.value = '';
+  textBox.textContent = '';
+};
+
+const formSubmitHandler = (e) => {
+  e.preventDefault();
+  if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
+    massageEmail.textContent = '';
+    form.submit();
+    messageValid.textContent = success;
+    reset();
+  } else {
+    massageEmail.textContent = invalidEmail;
+  }
+};
+
+form.addEventListener('submit', formSubmitHandler);
 showPopups.forEach((btn) => {
   btn.addEventListener('click', renderPopUp);
 });
