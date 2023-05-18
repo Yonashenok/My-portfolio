@@ -611,10 +611,9 @@
   .get-touch {
     display: flex;
     flex-direction: column;
-    column-gap: 8rem;
     height: 686px;
     width: 100%;
-    padding-left: 15rem;
+    padding: 5rem;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -622,7 +621,6 @@
 
   .get-text {
     width: 500px;
-    padding-left: 4rem;
     text-align: left;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -633,11 +631,11 @@
   }
 
   .formBox {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 2rem;
   }
 
   .contact-form {
