@@ -609,17 +609,20 @@
   }
 
   .get-touch {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     column-gap: 8rem;
     height: 686px;
     width: 100%;
     padding-left: 15rem;
     position: relative;
+    justify-content: center;
+    align-items: center;
   }
 
   .get-text {
     width: 500px;
-    padding: 6rem 0 0 4rem;
+    padding-left: 4rem;
     text-align: left;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -629,13 +632,21 @@
     color: #172b4d;
   }
 
+  .formBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
   .contact-form {
-    padding-top: 8rem;
+    width: 50%;
     gap: 0.5rem;
   }
 
   .contact-form input {
-    width: 684px;
+    width: 100%;
     height: 3rem;
     border: none;
     padding-left: 1rem;
@@ -663,7 +674,7 @@
 
   .contact-form textarea {
     color: #3c3a39;
-    width: 684px;
+    width: 100%;
     padding: 1rem;
     border: none;
   }
@@ -674,7 +685,7 @@
 
   .list-form li {
     list-style: none;
-    width: 65rem;
+    width: 100%;
   }
 
   .btn-form {
@@ -702,6 +713,9 @@
   }
 
   .footer-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
     justify-content: center;
     align-items: end;
     height: 2rem;
