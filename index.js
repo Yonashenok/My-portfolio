@@ -171,11 +171,6 @@ const reset = () => {
   textBox.textContent = '';
 };
 
-// const removeLocalStorage = () => {
-//   localStorage.removeItem('userData');
-// };
-// removeLocalStorage();
-
 const setLocalStorage = (data) => {
   localStorage.setItem('userData', JSON.stringify(data));
 };
@@ -186,7 +181,8 @@ const getLocalStorage = () => {
   user.value = userName;
   email.value = userEmail;
 };
-getLocalStorage();
+
+window.addEventListener('DOMContentLoaded', getLocalStorage)
 const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
