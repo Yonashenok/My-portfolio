@@ -5,7 +5,9 @@
     "hamburgermenu",
     "imgs",
     "projectsnap",
-    "Snapshoot"
+    "Snapshoot",
+    "validationemail",
+    "validationname"
   ],
   "cSpell.enableFiletypes": ["ruby"],
   "cSpell.language": "en,en-GB,en-US,lorem"

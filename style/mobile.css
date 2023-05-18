@@ -559,13 +559,13 @@
   }
 
   .get-touch {
+    padding-top: 5rem;
     justify-content: start;
     align-items: center;
     grid-template-columns: repeat(1, 327px);
   }
 
   .get-text {
-    margin-top: 5rem;
     max-width: 30rem;
     width: 100%;
     text-align: center;
@@ -575,6 +575,8 @@
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
   }
 
   .contact-form {
@@ -582,11 +584,12 @@
     justify-content: center;
     align-items: start;
     gap: 0.5rem;
+    padding: 2rem;
   }
 
   .list-form li {
     list-style: none;
-    width: 127%;
+    width: 100%;
   }
 
   .btn-form {
@@ -644,8 +647,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 6rem;
+    height: 2rem;
     gap: 1rem;
     border-top: 1px solid #dfe1e6;
+    padding-top: 2rem;
   }
 }
