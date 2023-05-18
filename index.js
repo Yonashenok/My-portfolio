@@ -165,15 +165,19 @@ const renderPopUp = (e) => {
   closePopUp.addEventListener('click', closePopUpHandler);
 };
 
+const reset = () => {
+  userName.value = '';
+  email.value = '';
+  textBox.textContent = '';
+}
+
 const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
     massageEmail.textContent = '';
     form.submit();
     messageValid.textContent = success;
-    userName.value = '';
-    email.value = '';
-    textBox.textContent = '';
+    reset();
   } else {
     massageEmail.textContent = invalidEmail;
   }
