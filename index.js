@@ -13,7 +13,6 @@ const email = document.querySelector('.email');
 const textBox = document.querySelector('.textBox');
 const messageValid = document.querySelector('.validation');
 const massageEmail = document.querySelector('.validationemail');
-const success = 'Form Successful submitted';
 const invalidEmail = 'Please enter a correct email address format';
 let closePopUp;
 const projectData = [
@@ -165,16 +164,6 @@ const renderPopUp = (e) => {
   closePopUp.addEventListener('click', closePopUpHandler);
 };
 
-const reset = () => {
-  user.value = '';
-  email.value = '';
-  textBox.textContent = '';
-};
-
-// const removeLocalStorage = () => {
-//   localStorage.removeItem('userData');
-// };
-// removeLocalStorage();
 
 const setLocalStorage = (data) => {
   localStorage.setItem('userData', JSON.stringify(data));
@@ -186,19 +175,19 @@ const getLocalStorage = () => {
   user.value = userName;
   email.value = userEmail;
 };
-getLocalStorage();
+
+window.addEventListener('DOMContentLoaded', getLocalStorage)
 const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
     massageEmail.textContent = '';
-    messageValid.textContent = success;
     const userData = {
       userName: user.value,
       userEmail: email.value,
     };
     setLocalStorage(userData);
     form.submit();
-    reset();
+
   } else {
     massageEmail.textContent = invalidEmail;
   }
