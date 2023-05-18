@@ -10,8 +10,6 @@ const logoCross = document.querySelector('.crossSign');
 const form = document.querySelector('.contact-form');
 const user = document.querySelector('.name');
 const email = document.querySelector('.email');
-const textBox = document.querySelector('.textBox');
-const messageValid = document.querySelector('.validation');
 const massageEmail = document.querySelector('.validationemail');
 const invalidEmail = 'Please enter a correct email address format';
 let closePopUp;
@@ -164,7 +162,6 @@ const renderPopUp = (e) => {
   closePopUp.addEventListener('click', closePopUpHandler);
 };
 
-
 const setLocalStorage = (data) => {
   localStorage.setItem('userData', JSON.stringify(data));
 };
@@ -176,7 +173,7 @@ const getLocalStorage = () => {
   email.value = userEmail;
 };
 
-window.addEventListener('DOMContentLoaded', getLocalStorage)
+window.addEventListener('DOMContentLoaded', getLocalStorage);
 const formSubmitHandler = (e) => {
   e.preventDefault();
   if (/^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g.test(email.value)) {
@@ -187,7 +184,6 @@ const formSubmitHandler = (e) => {
     };
     setLocalStorage(userData);
     form.submit();
-
   } else {
     massageEmail.textContent = invalidEmail;
   }
